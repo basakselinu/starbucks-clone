@@ -117,13 +117,20 @@ body {
   border-radius: 15px;
   margin-right: 20px;
 }
+.btn-byz {
+  background-color: white;
+  border: 1px solid #008248;
+  color: #008248;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
 .btn-giris {
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.87);
   color: rgba(0, 0, 0, 0.87);
   padding: 5px 10px;
   border-radius: 15px;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 .btn-syh {
   background-color: #000;
@@ -137,31 +144,92 @@ body {
   display: flex;
   height: 100vh;
 }
-.left {
+.col-left {
   width: 40%;
   height: 100vh;
-  position:fixed ;
+  position: fixed;
 }
-.left video{
+.left video {
   width: 100%;
   height: 100%;
   object-fit: cover;
   position: relative;
 }
-.left h1{
+.left h1 {
   position: absolute;
   bottom: 90px;
-  left:28px;
+  left: 28px;
   font-size: 18px;
   font-weight: 500;
 }
-.right{
+.col-right {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
-  
+}
+.main {
+  margin-left: 40%;
+}
+.first{
+  margin: 0 5px;
+  padding: 20px;
+}
+.first img {
+  width: 100%;
+  height: auto;
+}
+.second{
+  margin:0 30px;
+}
+.second h1{
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 20px;
+}
+.second p {
+  font-size: 10px;
+  font-weight: 400;
+  padding-left: 20px;
+  color: gray;
+}
+.second .buttons{
+  margin: 6px 20px;
 }
 
+.div {
+  display: flex;
+  margin-bottom: 20px;
+}
+.left-section {
+  width: 50%;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.left-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.right-section {
+  width: 50%;
+  padding: 10px;
+}
+
+.right-section h1 {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.right-section p {
+  padding: 0 6px;
+  font-size: 9px;
+  line-height: 1.5;
+  color: #555;
+}
+.right-section .btn-ysl{
+  margin-top: 10px;
+}
 
 @media (max-width: 750px) {
   .menu-icon {
@@ -188,7 +256,7 @@ body {
     justify-content: left;
     background-color: white;
     width: 100%;
-    height:900px;
+    height: 900px;
     margin-top: 300px;
     padding-left: 10px;
   }
@@ -198,11 +266,11 @@ body {
     display: flex;
   }
 
-  .container{
+  .container {
     flex-direction: column;
     height: auto;
   }
-  .left{
+  .left {
     width: 100%;
     position: relative;
     z-index: -1;
