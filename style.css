@@ -232,6 +232,74 @@ body {
 .right-section .btn-ysl{
   margin-top: 10px;
 }
+.accord{
+  margin-top: 10px;
+}
+.accordion {
+  background-color: white;
+  cursor: pointer;
+  padding: 18px;
+  margin-left: 20px;
+  margin-top: 26px;
+  width: 100%;
+  text-align: left;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.panel {
+  padding: 2px 18px;
+  margin-left: 24px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+.panel ul li{
+  list-style-type: none;
+  font-size: 10px;
+  color: #555;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+#hr{
+  width:670px ;
+  margin: 25px 40px;
+
+}
+.icons {
+  display: flex;
+  font-size: 22px;
+  gap: 14px;
+  margin-top: 20px ;
+  margin-left: 40px;
+}
+
+.icons a {
+  color: #211f1f;
+}
+.footer {
+  margin-top: 10px ;
+}
+
+.footer ul li {
+  padding-left: 40px;
+  list-style: none;
+  line-height: 20px;
+  font-size: 10px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #211f1f;
+  column-gap: 10px;
+}
+.footer button{
+  margin-left: 40px;
+}
 
 @media (max-width: 750px) {
   .menu-icon {
